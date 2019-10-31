@@ -9,7 +9,7 @@ namespace UtilisationBranche.models
     class Car
     {
         public string Color { get; set; }
-
+        public Person Owner { get; set; }
         public int Power { get; set; }
     }
 }
